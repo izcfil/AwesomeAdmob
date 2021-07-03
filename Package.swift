@@ -17,7 +17,7 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-        .package(url: "https://github.com/ikaros0503/AwesomeAdCore", from: "1.5.1"),
+        .package(url: "https://github.com/ikaros0503/AwesomeAdCore", from: "1.6.0"),
         .package(url: "https://github.com/quanghits/GoogleMobileAds", from: "8.7.0")
     ],
     targets: [
