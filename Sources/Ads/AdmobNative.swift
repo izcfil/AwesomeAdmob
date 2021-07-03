@@ -16,7 +16,7 @@ public class AdmobNative: NativeAdItem<GADNativeAd> {
         AdmobNativeListener()
     }()
     
-    public init(_ id: String, rootViewController: UIViewController) {
+    public init(_ id: String, rootViewController: UIViewController?) {
         super.init(id)
         adLoader = GADAdLoader(adUnitID: id, rootViewController: rootViewController, adTypes: [.native], options: [])
     }
